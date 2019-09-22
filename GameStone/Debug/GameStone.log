@@ -1,0 +1,20 @@
+﻿  AI_MonteCarlo.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(20): error C2440: “=”: 无法从“std::_Unforced”转换为“int”
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(20): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(30): note: 参见对正在编译的函数 模板 实例化“_Ty std::_Accumulate<std::_Tree_unchecked_iterator<_Mytree>,_Ty,_Fn2>(_InIt,_InIt,_Ty,_Fn2)”的引用
+          with
+          [
+              _Ty=int,
+              _Mytree=std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<unsigned int,unsigned int>,unsigned int>>>,
+              _Fn2=std::_Binder<std::_Unforced,std::plus<unsigned int>,const std::_Ph<1> &,std::_Binder<std::_Unforced,unsigned int std::pair<std::pair<unsigned int,unsigned int>,unsigned int>::* ,const std::_Ph<2> &>>,
+              _InIt=std::_Tree_unchecked_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<unsigned int,unsigned int>,unsigned int>>>>
+          ]
+  c:\users\abelyang\documents\visual studio 2015\projects\gamestone\ai_montecarlo.cpp(50): note: 参见对正在编译的函数 模板 实例化“_Ty std::accumulate<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,unsigned int>>>>,int,std::_Binder<std::_Unforced,std::plus<unsigned int>,const std::_Ph<1> &,std::_Binder<std::_Unforced,_Ty2 std::pair<std::pair<unsigned int,_Ty2>,_Ty2>::* ,const std::_Ph<2> &>>>(_InIt,_InIt,_Ty,_Fn2)”的引用
+          with
+          [
+              _Ty=int,
+              _Kty=std::pair<unsigned int,unsigned int>,
+              _Ty2=unsigned int,
+              _InIt=std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<unsigned int,unsigned int>,unsigned int>>>>,
+              _Fn2=std::_Binder<std::_Unforced,std::plus<unsigned int>,const std::_Ph<1> &,std::_Binder<std::_Unforced,unsigned int std::pair<std::pair<unsigned int,unsigned int>,unsigned int>::* ,const std::_Ph<2> &>>
+          ]
